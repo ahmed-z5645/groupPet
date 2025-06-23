@@ -1,0 +1,61 @@
+.walk-game,
+.feed-game,
+.water-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-size: 2rem;
+  user-select: none;
+}
+
+.walk-row,
+.feed-row,
+.water-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0.2rem 0;
+}
+
+.walk-row,
+.feed-row,
+.water-row h2 {
+    font-size: 1rem;
+}
+
+.controls {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.controls button {
+  font-size: 2rem;
+  padding: 1rem;
+  background: #ffeaa7;
+  border: 2px solid #fdcb6e;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 2px 2px #d35400;
+  transition: transform 0.1s;
+}
+
+.controls button:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.walk-row span,
+.feed-row span,
+.water-row span {
+  font-size: 2rem; /* or try 2.5rem for larger */
+  padding: 0.2rem;
+}
+
+/* Ensure tap targets are large enough on mobile */
+button,
+span {
+  touch-action: manipulation;
+}
