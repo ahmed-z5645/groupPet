@@ -12,7 +12,7 @@ import {
 import { db } from "../firebase";
 import { WalkGame, FeedGame, WaterGame } from "../components/minigames/Minigames";
 import ActivityFeedModal from "../components/activityFeed/ActivityFeedModal";
-import Pav from "../components/pav";
+import Pav from "../components/Pav";
 import "./Main.css";
 
 function isTaskNearingNeglect(date) {
