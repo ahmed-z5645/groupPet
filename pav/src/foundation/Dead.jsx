@@ -80,7 +80,8 @@ const Dead = () => {
     const name = prompt(`Who misses pavement? Enter your name:`);
 
     if (name && name.trim()) {
-
+      let message;
+      
       const time = Date.now();
 
       if (time % 4 === 0) {
