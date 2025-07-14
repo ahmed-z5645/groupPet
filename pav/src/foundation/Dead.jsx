@@ -155,10 +155,10 @@ const Dead = () => {
           <div style={{textAlign: "left", width: "90%", margin: "0 auto"}}>
             Dear Pavement... <br />
             Ever since you left us, I've been searching for the solace your smile used to so selflessly spew at me.
-            I feel a layer of guilt molded around my heart, constricting it at every beat, and no amount of tears absolves it.
+            I feel a layer of guilt molded around my heart, constricting it at every beat, and no amount of tears absolve it.
             Every browser search bar points me somewhere dark and gloomy because there isn't a corner of the internet that holds a grin as bright as yours used to be.
             Nonetheless, I search for you everwhere: in the sound of birds singing on a morning walk, in the smell of freshly picked flowers, and yet I only find remnants of you in the love you instilled in us all.
-            No matter how long it's been know you've become immortal as I'll hold you with me endlessly. I hope you find peace, Pavement. Know that I am sorry, forever and always.
+            No matter how long it's been, understand you've become immortal as I'll hold you with me endlessly. I hope you find peace, Pavement. Know that I am sorry forever and always.
           </div>
         </h3>
         <div className="buttons" style={{ marginBottom: 20 }}>
@@ -199,11 +199,11 @@ const Dead = () => {
             padding: "10px 0",
           }}
         >
-          At the end of his life, pavement lookd fondly upon those who loved him the most
+          At the end of his life, pavement looked fondly upon those who loved him the most <br />
           
           <img src="picture_frame.png" style={{width: "75%", marginTop: 20}} alt="Pavement's final moments" /> <br />
 
-          <div style={{width: "95%", margin: "0 auto"}}>He misses you two the most, and knew it wasn't your fault.</div>
+          <div style={{width: "95%", margin: "0 auto"}}>He misses you two the most, and knows it wasn't your fault.</div>
         </h3>
 
       {/* Activity feed modal */}
